@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://prong-certain-fibula.glitch.me";
 function API_GetMathResult(parameters,url = '') {
     return new Promise(resolve => {
         let URL = url ===''? API_URL+"/api/maths" + "?":url+"/api/maths" + "?";
